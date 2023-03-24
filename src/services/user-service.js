@@ -6,7 +6,7 @@ export class UserService {
 
     }
 
-    async add(user) {
+    async create(user) {
         await UserModel.create(user);
     }
 }
